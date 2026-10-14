@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ED27C121"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kosc1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/question"
+            android:layout_margin="10dp" />
+
+        <ImageView
+            android:id="@+id/kosc2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/question"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/kosc3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/question"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/kosc4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/question"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/kosc5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/question"
+            android:layout_margin="10dp"/>
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/rzut_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ED275021"
+        android:text="RZUT"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:id="@+id/pokazSume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="40sp"/>
+
+
+</LinearLayout>
